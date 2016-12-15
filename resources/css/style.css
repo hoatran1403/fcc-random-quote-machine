@@ -1,0 +1,23 @@
+html,body{
+	height: 100%;
+	min-height: 100%;
+}
+
+blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+.block{
+	height: 100%;
+	padding-top: 5%;
+	background-image: url("https://static.pexels.com/photos/234938/pexels-photo-234938.jpeg");
+	background-size: cover;
+}
+
+.alert-info{
+	opacity: .8;
+	padding: 15px;
+}
